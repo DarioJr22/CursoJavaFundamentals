@@ -7,8 +7,9 @@ public class HelloWorld1{
                 System.out.print("Executando em Dev");
             } else if(ambiente.equals("TESTE")){
                 System.out.print("Executando em Teste");
-            }else{
-                System.out.print("O nome dela é maura, aquela que machucou meu coração");
+
+            }else {
+                System.out.print("blob");
             }
     }
 
