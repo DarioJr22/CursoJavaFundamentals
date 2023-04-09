@@ -1,3 +1,12 @@
+package Classes_Metodos_PalavrasReservadas_ModificadoresAcesso;/*
+* @author Dário.Montair
+* @see
+*
+*
+*
+*
+* */
+
 public class Cliente {
     private int codigo;
     private String nome;
@@ -5,7 +14,8 @@ public class Cliente {
 
     /*
      *Getters e Setters
-     *
+     * @params Pega o código do cliente.
+     * @return resonator o indigo do client
      * Ao ultilizar uma variável com o mesmo nome que o
      * */
     public int getCodigo(){
