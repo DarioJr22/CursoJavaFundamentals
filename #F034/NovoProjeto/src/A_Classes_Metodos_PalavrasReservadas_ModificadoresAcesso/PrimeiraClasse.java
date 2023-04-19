@@ -5,7 +5,7 @@ public class PrimeiraClasse {
 
         System.out.println();
 
-       Cliente cliente = new Cliente();
+       Cliente cliente = new Cliente("A","B", "C",4d);
        Funcionario func = new Funcionario();
 
 
@@ -15,7 +15,7 @@ public class PrimeiraClasse {
        System.out.println("Olá Dário, seu endereço é o " + cliente.getEndereco() +" ?");
        System.out.println("O funcionário que irá lhe atender é o " + func.getNome());
 
-       cliente.setCodigo(2);
+       cliente.setCodigo(2d);
 
        System.out.println("Seu código é o " + cliente.getCodigo());
 
