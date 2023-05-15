@@ -58,8 +58,6 @@ public class App {
 
     }
 
-
-    //ERRO
     private static void cadastrar(String dados) {
         String [] dadosSeparados = dados.split(",");
         Cliente cliente = new Cliente(dadosSeparados[0],dadosSeparados[1],dadosSeparados[2],dadosSeparados[3],dadosSeparados[4],dadosSeparados[5],dadosSeparados[6]);
@@ -92,6 +90,13 @@ public class App {
         }
         return false;
     };
+
+    private static boolean isAlterar(String opcao){
+        if("3".equals(opcao)){
+            return true;
+        }
+        return false;
+    }
 
     private static boolean isOpcaoSair(String opcao) {
         if ("5".equals(opcao)) {
